@@ -1,5 +1,7 @@
-package com.example.springkafka;
+package com.example.springkafka.controller;
 
+import com.example.springkafka.MyMessage;
+import com.example.springkafka.producer.KafkaProduceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

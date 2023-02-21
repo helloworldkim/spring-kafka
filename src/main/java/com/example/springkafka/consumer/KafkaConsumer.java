@@ -1,5 +1,6 @@
-package com.example.springkafka;
+package com.example.springkafka.consumer;
 
+import com.example.springkafka.MyMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

@@ -1,5 +1,6 @@
-package com.example.springkafka;
+package com.example.springkafka.producer;
 
+import com.example.springkafka.MyMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
